@@ -23,7 +23,7 @@ export const goToNextGroupBtn = () => {
   const { pages } = paginate(state.totalPages, state.currentPage);
   const lastPageOfCurrentGroup = pages[pages.length - 1];
   const newPage = Math.min(lastPageOfCurrentGroup + 1, state.totalPages);
-  currentPage = pages[pages.length - 1] + 1;
+  state.currentPage = pages[pages.length - 1] + 1;
   updateCurrentPage(newPage);
 };
 export const goToPrevGroupBtn = () => {
