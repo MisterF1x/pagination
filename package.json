@@ -1,0 +1,28 @@
+{
+  "name": "pagination",
+  "version": "1.0.0",
+  "description": "",
+  "browserslist": "> 0.2% and not dead",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /pagination/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MisterF1x/pagination.git"
+  },
+  "keywords": [],
+  "author": "Oleksand Vashchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MisterF1x/pagination/issues"
+  },
+  "homepage": "https://github.com/MisterF1x/pagination#readme",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "parcel-reporter-clean-dist": "^1.0.4"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  }
+}
