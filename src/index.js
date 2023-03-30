@@ -8,4 +8,3 @@ const { pagination } = refs;
 
 pagination.addEventListener('click', onBtnPageClick);
 renderMarkup(paginationMarkup(state.currentPage));
-console.log(state.currentPage);
